@@ -21,3 +21,36 @@ body {
     justify-content: center;
     gap: 64px;
 }
+
+.recipes__header {
+    width: 1312px;
+    height: 151px;
+    text-align: center;
+}
+
+.recipes__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 59px;
+    margin-bottom: 8px;
+}
+
+.recipes__subtitle {
+    font-size: 16px;
+    line-height: 31px;
+    width: 700px;
+    margin: 0 auto 8px;
+}
+
+.recipes__btn {
+    width: 128px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 29px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
