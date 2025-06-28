@@ -8,3 +8,16 @@ body {
     font-family: sans-serif;
     background-color: rgb(240, 240, 240);
 }
+
+.recipes {
+    width: 1440px;
+    height: 815px;
+    padding: 64px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
