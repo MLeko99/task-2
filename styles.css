@@ -71,3 +71,29 @@ body {
     text-align: center;
     gap: 32px;
 }
+
+.recipe-card__image-wrapper {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.recipe-card__image {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.recipe-card__title {
+    width: 360px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
